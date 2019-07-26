@@ -49,10 +49,16 @@ class CubeMaker extends CuboidMaker1 {
     if ((this.length === this.width) && (this.width === this.height)) {
       return this.length * this.length * this.length;
   }
+    else {
+      return "Not a cube!";
+    }
 }
   cubeSurfaceArea() {
     if ((this.length === this.width) && (this.width === this.height)) {
       return this.length * this.length * 6;
+    }
+    else {
+      return "Not a cube!";
     }
   }
 }
